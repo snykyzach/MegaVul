@@ -1,4 +1,4 @@
-FROM alpine:3.17.3
+FROM alpine:3.21.1
 
 # dependencies
 RUN apk update && apk upgrade && apk add --no-cache openjdk17-jdk python3 git curl gnupg bash nss ncurses php
